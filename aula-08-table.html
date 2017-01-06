@@ -1,0 +1,60 @@
+<!-- 
+    Hyper Text Markup Language 
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabelas</title>
+
+    <style> 
+        table, th, td{
+            border: 1px solid #000;
+        }
+
+        td, th{
+            padding:5px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <table>
+
+        <caption>Cadastro De Clientes</caption>
+
+        <thead>
+            <tr>
+                <th>Nome:</th>
+                <th>Email:</th>
+                <th>Telefone</th>
+                <th>Cargo:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cleber</td>
+                <td>email@email.com</td>
+                <td>9999-9999</td>
+                <td rowspan="2">Desenvolvedor</td>
+            </tr>
+
+            <tr>
+                <td>Nome 2</td>
+                <td>teste@teste.com</td>
+                <td>9999-6666</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total: 2</td> <!-- colspan = COLuna-->
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
