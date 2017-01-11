@@ -1,0 +1,62 @@
+<!--
+    Hyper Text Markup Language
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 15 Formulários</title>
+</head>
+
+<body>
+
+    <form action="cadastro.js" method="POST">
+        <fieldset> <!-- Cria a marcação sobre o tema que eu desejo -->
+            <legend>Informações Fieldset - Legend</legend>
+            <br>
+            Nome: <br>
+            <input type="text" name="nome" required autofocus> <!-- disabled, maxlength="5", minlength="2" -->
+
+            <br>
+            Senha:
+            <input type="password" name="senha">
+
+            <br>
+            Email:
+            <input type="email" name="email" required>
+
+
+            <br>
+            Time:
+            <br>
+            <input type="radio" name="time" value="corinthians" checked> Corinthians <br>
+            <input type="radio" name="time" value="saopaulo"> São Paulo <br>
+            <input type="radio" name="time" value="palmeiras"> Palmeiras <br>
+
+
+            <br>
+            Cores:
+            <br>
+            <input type="checkbox" name="cores" value="azul">Azul <br>
+            <input type="checkbox" name="cores" value="verde">Verde <br>
+            <input type="checkbox" name="cores" value="preto" checked>Preto <br>
+
+
+
+
+
+
+
+
+
+
+
+            <br>   
+            <input type="submit" name="btn-enviar" value="Enviar">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
